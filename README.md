@@ -2,10 +2,18 @@
 Abstractive text summarizer built from collecting important words which make up a sentence and then feeding it to a t5 model to generate a summary
 
 ## Introduction
-![WhatsApp Image 2023-01-06 at 06 04 13](https://user-images.githubusercontent.com/98120916/210906631-6db79c0f-462c-4a3b-b4b6-638d8d4286a9.jpg)
+![Final_Summarizer](https://user-images.githubusercontent.com/98120916/211164271-a8671f43-771d-483b-84ae-60955a7d750c.jpg)
 
-This model was inspired by the SumBasic Extractive summarization model.  takes a probabilistic approach to determine which words are most likely to be included as a part of the summary.A Random forest classifier predicts probabilities of the words being present in summary given a certain features. words having high probability are then taken in and fed to a fine tuned t5 NLG model to generate coherent sentences.A major drawback to this project is the abscence of grammar checkers for the final summary.
+This model was inspired by the SumBasic Extractive summarization model.  takes a probabilistic approach to determine which words are most likely to be included as a part of the summary.A Random forest classifier predicts probability of a word being present in summary, given a certain set of features. words having high probability are then taken in and fed to a fine tuned t5 NLG model to generate coherent sentences.Then each of the sentence is fed to a Grammar checker model to generate grammatically correct sentences
 
 Model was trained on the CNN/Daily mail dataset .Functions with clear documentation is provided as to make this model be deployed for some other summarization task.
 
-## Description of files
+## Downloading the required files
+
+Due to file upload size limit in github, for the primary version 0.0 im using Google drive to store my pre trained models. Make sure to have the finalized_model.sav, loading.gif and model folder under the same directory as Abstractive_Summarization_model.py 
+
+
+The notebook file of Abstractive_Summarization_model, contains the documentation for every function so it is easier to modify it and use. A demo is provided at the end of the notebook file about how to run it.
+
+
+
