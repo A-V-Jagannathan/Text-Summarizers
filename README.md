@@ -8,12 +8,19 @@ This model was inspired by the SumBasic Extractive summarization model.  takes a
 
 Model was trained on the CNN/Daily mail dataset .Functions with clear documentation is provided as to make this model be deployed for some other summarization task.
 
-## Downloading the required files
+## Downloading the required files and packages
 
 Due to file upload size limit in github, for the primary version 0.0 im using Google drive to store my pre trained models. Make sure to have the finalized_model.sav, loading.gif and model folder under the same directory as Abstractive_Summarization_model.py 
 
 
 The notebook file of Abstractive_Summarization_model, contains the documentation for every function so it is easier to modify it and use. A demo is provided at the end of the notebook file about how to run it.
+
+### resolving package issues.-IMPORTANT
+
+install package keytotext  and locate trainer.py under keytotext package, Ctrl+f to find progress_bar_refresh_rate and remove that line
+
+
+install package gramformer and under errant folder, replace the __init__.py file with the file uploaded under Gramformer Fixes . under gramformer, replace the gramformer.py file with the gramformer.py file uploaded under Gramformer Fixes
 
 
 
