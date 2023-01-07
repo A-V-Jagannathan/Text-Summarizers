@@ -15,7 +15,11 @@ Due to file upload size limit in github, for the primary version 0.0 im using Go
 
 The notebook file of Abstractive_Summarization_model, contains the documentation for every function so it is easier to modify it and use. A demo is provided at the end of the notebook file about how to run it.
 
-### resolving package issues.-IMPORTANT
+pip install keytotext
+
+pip install gramformer
+
+## Resolving package issues.-IMPORTANT
 
 install package keytotext  and locate trainer.py under keytotext package, Ctrl+f to find progress_bar_refresh_rate and remove that line
 
