@@ -8,3 +8,9 @@
 4. Sentences are popped and added until the number of words in summary is close to given summary length
 
    
+# !! Necessary packages !!
+
+1. contractions - have to install, use !pip install contractions
+2. re - added by default in python
+3. math - added by default in python
+4. pickle - added by default in python
