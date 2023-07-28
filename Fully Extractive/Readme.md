@@ -1,5 +1,11 @@
 # Working
+## How to run in your device?
 
+1. Install contractions library
+2. Download the Extractive summarizer.py and idf.pkl
+3. Run Extractive summarizer.py
+
+## Working principle
 
  The idf of various words have been formed using the CNN/Dailymail corpus. IDF is defined as log(Number of documents/Number of documents where the word occurs)
 1. Sentences are cleaned ( urls removed, contractions expanded, html tags removed, special and newline characters removed )
